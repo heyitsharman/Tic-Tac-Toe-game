@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <header>
+    <header id="main-header">
         <h1>Play Tic, Tac, Toe </h1>
         <p>Built with HTML, CSS, Javascript and -of course - lots of love! </p>
     </header>
@@ -19,8 +20,8 @@
                     <input type="text" name="player-name" id="player-name">
                 </div>
                 <div>
-                    <button type="button">Cancel</button>
-                    <button type="submit">Confirm</button>
+                    <button type="button" class="btn btn-alt">Cancel</button>
+                    <button type="submit" class="btn">Confirm</button>
                 </div>
             </form>
         </aside>
@@ -31,7 +32,7 @@
                         <h2>Player 1</h2>
                         <h3>Player name</h3>
                         <p>X</p>
-                        <button>Edit</button>
+                        <button class="btn btn-alt">Edit</button>
                     </article>
                 </li>
                 <Li>
@@ -39,11 +40,11 @@
                         <h2>Player 2</h2>
                         <h3>Player name</h3>
                         <p>O</p>
-                        <button>Edit</button>
+                        <button class="btn btn-alt">Edit</button>
                     </article>
                 </Li>
             </ol>
-            <button>Start new game</button>
+            <button class="btn">Start new game</button>
         </section>
         <section id="active-game">
             <article>
